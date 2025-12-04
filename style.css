@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 243, 246);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+h2{
+    text-align: center;
+    margin: 20px 0;
+}
+
+#form-matric {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    margin: 0 auto;
+}
+
+.row input {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#error {
+    text-align: center;
+    color: red;
+}
+
+#result {
+    text-align: center;
+    color: green;
+}
+
+.btn {
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px 0;
+}
